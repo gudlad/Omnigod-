@@ -3,11 +3,30 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
 }
+
+.hero {
+  /* grid */
+
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rebeccapurple;
+}
 /* 1 rem=16px by default
 
+*/
+.hero-img {
+  width: 100%;
+}
